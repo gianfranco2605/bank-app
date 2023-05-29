@@ -7,9 +7,9 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    #ffffffc2 -278.56%,
+    #e8f7953a -78.47%,
+    #d9ff001f 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }

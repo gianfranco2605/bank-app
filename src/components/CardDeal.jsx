@@ -1,9 +1,19 @@
-import React from 'react'
+import { card } from '../assets';
+import styles, { layout } from '../style';
+import Button from './Button';
 
-const CardDeal = () => {
-  return (
-    <div>CardDeal</div>
+const CardDeal = () => (
+    <section className={layout.section}>
+      <div className={layout.sectionInfo}>
+        <h2 className={styles.heading2}>Trova un'offerta di carta migliore <br className='sm:block hidden' /> in pochi passi.</h2>
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Scegli la carta perfetta per te in modo rapido e semplice, scoprendo offerte vantaggiose in pochi passaggi.</p>
+        <Button styles="mt-10" />
+      </div>
+      <div className={layout.sectionImg}>
+        <img src={card} alt='card' className='w-[100%] h-[100%]' /> 
+      </div>
+    </section>
   )
-}
+
 
 export default CardDeal
