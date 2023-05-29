@@ -23,24 +23,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Premi",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+    "Le migliori carte di credito offrono interessanti combinazioni di promozioni e premi."
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "100% Sicuro",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+    "Adottiamo misure preventive per assicurarci che le tue informazioni e le transazioni siano al sicuro.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
-    content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
-  },
+    title: "Bonifici",
+    content: "Una carta di credito per il trasferimento del saldo può farti risparmiare molti soldi in interessi.",
+  }
 ];
 
 export const feedback = [
@@ -93,32 +92,32 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
+        name: "Contenuto",
         link: "https://www.hoobank.com/content/",
       },
       {
-        name: "How it Works",
+        name: "Come Funziona",
         link: "https://www.hoobank.com/how-it-works/",
       },
       {
-        name: "Create",
+        name: "Inizia",
         link: "https://www.hoobank.com/create/",
       },
       {
-        name: "Explore",
+        name: "Esplora",
         link: "https://www.hoobank.com/explore/",
       },
       {
-        name: "Terms & Services",
+        name: "Terms & Servizi",
         link: "https://www.hoobank.com/terms-and-services/",
       },
     ],
   },
   {
-    title: "Community",
+    title: "Communita",
     links: [
       {
-        name: "Help Center",
+        name: "Call Center",
         link: "https://www.hoobank.com/help-center/",
       },
       {
@@ -126,7 +125,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Suggerimenti",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
@@ -143,11 +142,11 @@ export const footerLinks = [
     title: "Partner",
     links: [
       {
-        name: "Our Partner",
+        name: "Nostri Partner",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Diventa Partner",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
